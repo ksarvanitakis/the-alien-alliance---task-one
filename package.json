@@ -1,0 +1,26 @@
+{
+  "name": "salt-jsfs-minikatas",
+  "version": "1.0.0",
+  "description": "Just a few miniature katas for you to solve, to get the juices flowing!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --exit **.spec.js",
+    "watch": "nodemon --exec 'npm run test'",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-jsfs-miniKatas.git"
+  },
+  "author": "School of Applied Technology",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-jsfs-miniKatas/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-jsfs-miniKatas#readme",
+  "devDependencies": {
+    "eslint-config-salt": "^1.1.0",
+    "mocha": "^8.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
